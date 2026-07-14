@@ -23,8 +23,8 @@ CONTRIBUTING).
 Clone this repository and run the script from a terminal:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/Srestha2809/Assignment.git
+cd https://github.com/Srestha2809/Assignment.git
 bash simple-interest.sh
 ```
 
