@@ -1,32 +1,42 @@
-# Git and GitHub Final Project
+# Simple Interest Calculator
 
 ## Project Name
-**Git and GitHub Final Project**
+**Simple Interest Calculator**
 
 ## Description
-This repository was created as part of the final project for the *Introduction
-to Git and GitHub* course. It demonstrates the use of the GitHub web
-interface and the Git command-line interface (CLI) to manage a software
-project — including branching, merging, pull requests, and the standard
-open-source repository files (README, LICENSE, CODE_OF_CONDUCT, and
-CONTRIBUTING).
+This project is a command-line Simple Interest Calculator built as a Bash
+script (`simple-interest.sh`). It prompts the user for three inputs —
+**principal**, **rate of interest**, and **time period** — and computes the
+simple interest using the standard formula:
 
-## Features
-- Apache License 2.0
-- Code of Conduct (Contributor Covenant)
-- Contributing guidelines
-- A simple Bash script (`simple-interest.sh`) that calculates simple
-  interest based on a user-provided principal, rate of interest, and time
-  period.
+Simple Interest (SI) = (Principal × Rate × Time) / 100
 
-## Getting Started
+## Inputs
+- **Principal** — the initial amount of money (e.g., 10000)
+- **Rate of Interest** — the annual interest rate as a percentage (e.g., 5)
+- **Time Period** — the duration in years (e.g., 2)
+
+## Output
+The script prints the calculated simple interest based on the values
+entered.
+
+## Usage
 Clone this repository and run the script from a terminal:
 
 ```bash
 git clone https://github.com/Srestha2809/Assignment.git
-cd https://github.com/Srestha2809/Assignment.git
+cd Assignment
 bash simple-interest.sh
 ```
+
+You'll be prompted to enter the principal, rate of interest, and time
+period, and the script will display the computed simple interest.
+
+## Repository Contents
+- `simple-interest.sh` — the calculator script
+- `LICENSE` — Apache License 2.0
+- `CODE_OF_CONDUCT.md` — Contributor Covenant Code of Conduct
+- `CONTRIBUTING.md` — contribution guidelines
 
 ## License
 This project is licensed under the Apache License 2.0 — see the
